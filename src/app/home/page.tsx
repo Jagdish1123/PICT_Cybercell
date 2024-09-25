@@ -69,7 +69,7 @@ for (let i = 0; i < numberOfConnections; i++) {
     startLng: startCity.lng,
     endLat: endCity.lat,
     endLng: endCity.lng,
-    arcAlt: Math.random() * 0.4 + 0.1, // Random altitude between 0.1 and 0.5
+    arcAlt: Math.random() * 0.4 + 0.1, 
     color: color,
   });
 }
