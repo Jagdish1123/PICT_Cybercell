@@ -18,12 +18,28 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
+        'dark-bg': 'rgb(15, 15, 21)',
+        'card-bg': 'rgb(31, 32, 45)',
+        'card-text-color': 'rgb(128, 208, 254)',
         'custom-bg': '#000814',
         'blue-200':'#118AB2',
       },
     },
   },
-  plugins: [addVariablesForColors],
+  plugins: [
+    addVariablesForColors,
+    function({ addUtilities }) {
+      addUtilities({
+        '.no-scrollbar': {
+          'scrollbar-width': 'none', /* Firefox */
+          '-ms-overflow-style': 'none', /* IE 10+ */
+        },
+        '.no-scrollbar::-webkit-scrollbar': {
+          'display': 'none', /* Chrome, Safari, and Edge */
+        },
+      });
+    },
+  ],
 };
 
 function addVariablesForColors({ addBase, theme }: any) {

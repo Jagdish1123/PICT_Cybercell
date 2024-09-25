@@ -1,0 +1,40 @@
+.your-div {
+    position: relative;
+    width: 100%;
+    background-color: #1E1E2A;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .image-slider {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  
+  .slider-track {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(250px * 6); /* Adjust based on number of images */
+    animation: scroll 10s linear infinite;
+  }
+  
+  .slider-track img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 10px;
+    border-radius: 10px;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
