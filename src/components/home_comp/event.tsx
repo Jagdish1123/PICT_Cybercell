@@ -11,19 +11,19 @@ interface Event {
 const events: Event[] = [
   {
     image: '/sunny.png', // Replace with your image paths
-    title: 'Cybersecurity Basics',
+    title: 'Lakshya CTF',
   },
   {
     image: '/sunny.png',
-    title: 'Advanced Threat Detection',
+    title: 'Basics of Web Vurnabilities',
   },
   {
-    image: '/sunny.png',
-    title: 'Ethical Hacking',
+    image: '/event_dao/dao3.jpeg',
+    title: 'Jobs In Cybersecruity by PuneDAO',
   },
   {
     image: '/path/to/image4.jpg',
-    title: 'Future Trends in Cybersecurity',
+    title: 'Strengthening Cyber Defenses',
   },
 ];
 
