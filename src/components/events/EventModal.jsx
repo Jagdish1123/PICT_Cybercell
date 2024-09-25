@@ -119,15 +119,15 @@ const {
                     <article className="px-2 prose prose-table:overflow-x-auto prose-table:w-full max-w-none prose-table:block prose-invert text-white marker:text-white text-justify">
                         <Markdown remarkPlugins={[remarkMath,remarkGfm]} rehypePlugins={[rehypeHighlight,rehypeKatex]}>{body}</Markdown>
                     </article>
-                    <div class="image-slider">
-                    <div class="slider-track">
+                    {/* <div class="image-slider">
+                    <div class="slider-track"> */}
                     {/* <!-- Add your images here --> */}
-                    <Image src={`/${slider_images[0]}/${slider_images[1]}`} alt="Image 1" />
+                    {/* <Image src={`/${slider_images[0]}/${slider_images[1]}`} alt="Image 1" /> */}
                     {/* <Image src={slider_images[1]} alt="Image 2" /> */}
                     {/* <Image src={"image3.jpg"} alt="Image 3" /> */}
                     {/* <!-- Add more images as needed --> */}
-                    </div>
-                </div>
+                    {/* </div> */}
+                {/* </div> */}
                 </div>
             </motion.div>
         </motion.div>

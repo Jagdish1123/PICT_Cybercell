@@ -1,6 +1,6 @@
 // import ctfImage from "../../public/eventImages/ctf.webp";
-import daoImage from "../../public/event_dao/1727150681545.jpeg";
-import daoImage2 from "../../public/event_dao/1727150684268.jpeg";
+// import daoImage from "../../public/event_dao/1727150681545.jpeg";
+// import daoImage2 from "../../public/event_dao/1727150684268.jpeg";
 
 export async function getEvents() {
 
