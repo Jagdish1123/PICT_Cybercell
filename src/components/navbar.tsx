@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { HiMenu, HiX } from 'react-icons/hi'; 
+import { TextHoverEffect } from "@/components/ui/text-hover-effect";
 
 const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);

@@ -5,11 +5,11 @@ import { FaLinkedin, FaTwitter, FaInstagram, FaGithub } from 'react-icons/fa'
 export default function Footer() {
   return (
     <div>
-      <footer className="bg-black text-white">
-        <div className="container mx-auto ">
-          <div className="h-px bg-slate-100/50 mb-12 w-full"></div>
+      <footer className="bg-black w-full ">
+        <div className="container mx-auto text-white">
           {/* Horizontal Line */}
-          
+          <div className="h-px bg-gray-600 w-full mb-8"></div>
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start px-1">
             {/* Contact Us Section */}
             <div className="md:col-start-1 md:col-end-2 ml-5">
@@ -28,16 +28,16 @@ export default function Footer() {
               </p>
               {/* Social Media Icons */}
               <div className="flex justify-center space-x-8 mt-4">
-                <Link href="#" aria-label="LinkedIn" className="text-[#1da1f2] hover:-translate-y-1 transition-transform duration-300">
+                <Link href="https://www.linkedin.com/in/pictcybercell/" aria-label="LinkedIn" className="text-[#1da1f2] hover:-translate-y-1 transition-transform duration-300">
                   <FaLinkedin size={35} />
                 </Link>
-                <Link href="#" aria-label="GitHub" className="text-[#3b5998] hover:-translate-y-1 transition-transform duration-300">
+                <Link href="https://github.com/PICT-Cyber-Cell" aria-label="GitHub" className="text-[#3b5998] hover:-translate-y-1 transition-transform duration-300">
                   <FaGithub size={35} />
                 </Link>
-                <Link href="#" aria-label="Instagram" className="text-[#e4405f] hover:-translate-y-1 transition-transform duration-300">
+                <Link href="https://www.instagram.com/pict_cybercell" aria-label="Instagram" className="text-[#e4405f] hover:-translate-y-1 transition-transform duration-300">
                   <FaInstagram size={35} />
                 </Link>
-                <Link href="#" aria-label="Twitter" className="text-[#1da1f2] hover:-translate-y-1 transition-transform duration-300">
+                <Link href="https://www.instagram.com/pict_cybercell" aria-label="Twitter" className="text-[#1da1f2] hover:-translate-y-1 transition-transform duration-300">
                   <FaTwitter size={35} />
                 </Link>
               </div>
@@ -107,6 +107,7 @@ export default function Footer() {
           </div>
         </div>
       </footer>
+      
     </div>
   )
 }

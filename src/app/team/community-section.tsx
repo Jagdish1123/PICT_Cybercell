@@ -112,12 +112,12 @@ export default function CommunitySection() {
           <Image
             src={clubHead.image}
             alt={clubHead.name}
-            width={200}
-            height={200}
+            width={300}
+            height={300}
             className="rounded-full mb-4 border-4 border-[#1FA2FF]"
           />
-          <h3 className="text-2xl font-semibold text-gray-800">{clubHead.name}</h3>
-          <p className="bg-gradient-to-b from-[#1FA2FF] via-[#12D8FA] to-[#A6FFCB] text-transparent bg-clip-text font-bold mb-4">{clubHead.title}</p>
+          {/* <h3 className="text-2xl font-semibold text-gray-800">{clubHead.name}</h3>
+          <p className="bg-gradient-to-b from-[#1FA2FF] via-[#12D8FA] to-[#A6FFCB] text-transparent bg-clip-text font-bold mb-4">{clubHead.title}</p> */}
           <div className="flex justify-center space-x-4">
             <a href={clubHead.socials.linkedin} className="text-[#36a9f1] hover:-translate-y-1 transition-transform duration-300">
               <FaLinkedin size={29} />
@@ -143,12 +143,12 @@ export default function CommunitySection() {
               <Image
                 src={coordinator.image}
                 alt={coordinator.name}
-                width={200}
-                height={200}  
+                width={300}
+                height={300}  
                 className="rounded-full mx-auto mb-4 border-4 border-[#1FA2FF]"
               />
-              <h3 className="text-2xl font-semibold text-gray-800">{coordinator.name}</h3>
-              <p className="bg-gradient-to-b from-[#1FA2FF] via-[#12D8FA] to-[#A6FFCB] text-transparent bg-clip-text font-bold mb-4">{coordinator.title}</p>
+              {/* <h3 className="text-2xl font-semibold text-gray-800">{coordinator.name}</h3>
+              <p className="bg-gradient-to-b from-[#1FA2FF] via-[#12D8FA] to-[#A6FFCB] text-transparent bg-clip-text font-bold mb-4">{coordinator.title}</p> */}
               <div className="flex justify-center space-x-4 mt-auto">
                 <a href={coordinator.socials.linkedin} className="text-[#36a9f1] hover:-translate-y-1 transition-transform duration-300">
                   <FaLinkedin size={29} />
