@@ -5,7 +5,7 @@ import CommunitySection from './community-section'
 const AboutUsPage = () => {
   return (
     <div>
-            <TeamSection />
+            <TeamSection/>
             <CommunitySection/>
     </div>
     
