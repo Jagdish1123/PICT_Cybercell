@@ -6,9 +6,11 @@ export default function CyberHUBLanding() {
     <div className="bg-black min-h-screen text-white p-8 flex items-center">
       <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between">
         <div className="lg:w-1/2 mb-8 lg:mb-0">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-            Inspiring the Next Wave of Cybersecurity Leaders
-          </h1>
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-center bg-clip-text bg-gradient-to-r from-blue-900 via-blue-400 to-blue-900 text-transparent animate-fade-in animate-pulse">
+        Inspiring the Next Wave of Cybersecurity Leaders
+    </h1>
+    
+    
           <p className="text-xl mb-6">
            Welcome to the PICT Cybercell Club, the ultimate destination for cybersecurity enthusiasts.
           </p>

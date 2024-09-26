@@ -21,8 +21,8 @@ const NumbersThatMatter: React.FC = () => {
   return (
     <div className="bg-black flex items-center justify-center p-12">
       <div className="w-full max-w-6xl">
-        <h1 className="text-5xl font-bold text-white text-center mb-8">Some numbers that matter</h1>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <h1 className="text-5xl font-bold text-center bg-clip-text bg-gradient-to-r from-blue-500 to-blue-300 text-transparent animate-fade-in mb-7">Our Journey in Numbers</h1>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <Card
             icon={
               <svg className="w-12 h-12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

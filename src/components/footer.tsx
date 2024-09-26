@@ -23,23 +23,24 @@ export default function Footer() {
             <p className="text-center md:text-left mb-4">
               A group of passionate PICT students are helping the community of PICT.
             </p>
+
             <div className="flex space-x-4">
               <Link
-                href="#"
+                href="https://www.linkedin.com/in/pictcybercell/"
                 aria-label="LinkedIn"
                 className="text-[#1da1f2] hover:-translate-y-1 transition-transform duration-300"
               >
                 <FaLinkedin size={28} />
               </Link>
               <Link
-                href="#"
+                href="https://github.com/PICT-Cyber-Cell"
                 aria-label="GitHub"
                 className="text-[#3b5998] hover:-translate-y-1 transition-transform duration-300"
               >
                 <FaGithub size={28} />
               </Link>
               <Link
-                href="#"
+                href="https://www.instagram.com/pict_cybercell"
                 aria-label="Instagram"
                 className="text-[#e4405f] hover:-translate-y-1 transition-transform duration-300"
               >

@@ -100,10 +100,14 @@ export default function WebClubUI() {
   };
   return (
     <div className=" mx-auto max-w-6xl pt-10"> 
-      <h1 className="text-5xl font-bold mb-14 text-center pt-10">
-        Things we do in <span className="text-blue-500">PICT Cyber Cell</span> 
-        <span className="inline-block ml-2 animate-spin">🕸️</span>
-      </h1>
+<h1 className="text-5xl font-bold text-center bg-clip-text bg-gradient-to-r from-blue-900 via-blue-400 to-blue-900 text-transparent animate-fade-in mb-7">
+    Things We Do: Unleashing Excitement at <span className="text-blue-500">PICT Cyber Cell</span>
+    <span className="inline-block ml-2 animate-spin">🕸️</span>
+</h1>
+
+
+
+
       
       <div className="grid grid-cols-12 gap-4 text-white">
         
