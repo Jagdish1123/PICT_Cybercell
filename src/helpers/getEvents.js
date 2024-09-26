@@ -63,7 +63,7 @@ export async function getEvents() {
           }]
         },
         "title": "Lakshya CTF",
-        "date_time": "2024-08-20",
+        "date_time": "2024-07-20",
         "event_type": "CTF",
         "location": "PICT, Pune",
         "link": "",
@@ -78,7 +78,35 @@ export async function getEvents() {
         },
         "slider_images": ["event_ctf", 11]
       }
-    }]
+    },
+    {
+      "id": 3,
+      "attributes": {
+        "sigs":  {
+          "data": [{
+            "attributes": {
+              "name": ["Workshop"]
+            }
+          }]
+        },
+        "title": "Web Vulnerability Workshop",
+        "date_time": "2024-08-20",
+        "event_type": "Workshop",
+        "location": "PICT, Pune",
+        "link": "",
+        "cems_link": "",
+        "body": "Conducted an introductory workshop for everyone interested in getting started with Cybersecurity! Discussed Linux and Web fundamentals, some hands on activities, and lots of learnings.",
+        "cover_images":{
+          "data": [{
+            "attributes": {
+              "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQYSnVJ51Fh4HLmBOoRXMjrwmgxoomOHok3_DJwtrrdoh79_suxKzNQuqNs9umGddQcCg"
+            }
+          }]
+        },
+        "slider_images": ["event_webclass", 6]
+      }
+    }
+  ]
       
 
 

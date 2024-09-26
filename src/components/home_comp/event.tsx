@@ -10,15 +10,15 @@ interface Event {
 
 const events: Event[] = [
   {
-    image: '/sunny.png', // Replace with your image paths
+    image: '/event_ctf/event_ctf8.jpeg', // Replace with your image paths
     title: 'Lakshya CTF',
   },
   {
-    image: '/sunny.png',
+    image: '/event_webclass/event_webclass2.jpeg',
     title: 'Basics of Web Vurnabilities',
   },
   {
-    image: '/event_dao/dao3.jpeg',
+    image: '/event_dao/event_dao3.jpeg',
     title: 'Jobs In Cybersecruity by PuneDAO',
   },
   {
