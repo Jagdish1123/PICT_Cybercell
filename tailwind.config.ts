@@ -28,7 +28,7 @@ const config: Config = {
   },
   plugins: [
     addVariablesForColors,
-    function({ addUtilities }) {
+    function({ addUtilities }: any) {
       addUtilities({
         '.no-scrollbar': {
           'scrollbar-width': 'none', /* Firefox */
