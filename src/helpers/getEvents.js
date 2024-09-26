@@ -35,6 +35,48 @@ export async function getEvents() {
               }
             }]
           },
+          "title": "Strengthening Cyber Defenses: Navigating Threats and Risks",
+          "date_time": "2024-09-27",
+          "event_type": "Workshop",
+          "location": "COMP Seminar Hall",
+          "link": "",
+          "cems_link": "",
+          "body": `📢 Whoaa! A cyber storm is brewing! 🤯 \n \n No worries! PICT Cyber Cell is back with an electrifying workshop you can't miss! Join us for an exclusive session on:
+          
+\nTopic: Strengthening Cyber Defenses: Navigating Threats and Risks
+\nSpecial Guest: Mr. Santosh Kamane, Cybersecurity and Data Privacy Leader, Founder and CISO of RIVEDIX
+
+\nGet ready for an insightful session as Mr. Santosh Kamane dives into:
+
+\n🔍 Decoding Threat Models
+\n⚖ Mastering Risk Management Strategies
+\n🌐 Unlocking Cybersecurity Career Pathways
+
+\nThis is your chance to connect with a cybersecurity expert, ask your burning questions, and kickstart your career journey! 🔐
+
+\nFor details and queries, please reach out to:
+\n📱 Devendra Ingale: 9420877105
+\n📱 Tanmay Shingavi: 7448267050`,
+          "cover_images": {
+            "data": [{ 
+              "attributes": { 
+                "url" : "https://codeforces.com/userpic.codeforces.org/3586348/title/743853a044ee9693.jpg"
+              }
+            }]
+          },
+          "slider_images": ["", 0]
+        }
+      },
+        {
+        "id": 2,
+        "attributes": {
+          "sigs": {
+            "data": [{
+              "attributes": {
+                "name": ["Workshop"]
+              }
+            }]
+          },
           "title": "PuneDAO Event",
           "date_time": "2024-09-21",
           "event_type": "SIG Workshop",
@@ -53,7 +95,7 @@ export async function getEvents() {
         }
       },
     {
-      "id": 2,
+      "id": 3,
       "attributes": {
         "sigs":  {
           "data": [{
@@ -80,7 +122,7 @@ export async function getEvents() {
       }
     },
     {
-      "id": 3,
+      "id": 4,
       "attributes": {
         "sigs":  {
           "data": [{

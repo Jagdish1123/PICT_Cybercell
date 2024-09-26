@@ -149,7 +149,7 @@ const {
                     <div class="image-slider">
                     <div class="slider-track">
                     {imageArray.map((imagePath, index) => (
-                        <Image src={imagePath} alt={`Image ${index + 1}`} width={250} height={150} />
+                        <Image key={index} src={imagePath} alt={`Image ${index + 1}`} width={250} height={150} />
                     ))}
                     {/* <!-- Add your images here --> */}
                     {/* <Image src={`/${slider_images[0]}/${slider_images[1]}`} alt="Image 1" /> */}
