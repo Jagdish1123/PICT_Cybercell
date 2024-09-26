@@ -19,6 +19,11 @@ import remarkGfm from 'remark-gfm'
 import Markdown from "react-markdown"
 import 'katex/dist/katex.min.css';
 import 'highlight.js/styles/atom-one-dark.css';
+// import { Swiper, SwiperSlide } from 'swiper/react';
+// import 'swiper/css'; // Correct import for Swiper styles
+// import 'swiper/css/navigation'; // Import navigation styles
+// import 'swiper/css/pagination'; // Import pagination styles
+// import 'swiper/swiper-bundle.min.css';
 
 export default function EventModal ({ event, initial, handleClose }) {
 
@@ -65,6 +70,13 @@ const {
         }
         return dispose
     }, [])
+
+    const imageArray = [];
+
+  // Loop to dynamically create image paths
+    for (let i = 1; i <= slider_images[1]; i++) {
+        imageArray.push(`/${slider_images[0]}/${slider_images[0]}${i}.jpeg`); // Assuming image names like image1.jpg, image2.jpg, etc.
+    }
 
 
     return (
@@ -119,15 +131,33 @@ const {
                     <article className="px-2 prose prose-table:overflow-x-auto prose-table:w-full max-w-none prose-table:block prose-invert text-white marker:text-white text-justify">
                         <Markdown remarkPlugins={[remarkMath,remarkGfm]} rehypePlugins={[rehypeHighlight,rehypeKatex]}>{body}</Markdown>
                     </article>
-                    {/* <div class="image-slider">
-                    <div class="slider-track"> */}
+
+                    {/* <Swiper
+                        spaceBetween={50}
+                        slidesPerView={1}
+                        navigation
+                        pagination={{ clickable: true }}
+                        loop={true}
+                    >
+                    {imageArray.map((src, index) => (
+                        <SwiperSlide key={index}>
+                        <img src={src} alt={`Image ${index + 1}`} style={{ width: '100%', height: 'auto' }} />
+                        </SwiperSlide>
+                    ))}
+                    </Swiper> */}
+
+                    <div class="image-slider">
+                    <div class="slider-track">
+                    {imageArray.map((imagePath, index) => (
+                        <Image src={imagePath} alt={`Image ${index + 1}`} width={250} height={150} />
+                    ))}
                     {/* <!-- Add your images here --> */}
                     {/* <Image src={`/${slider_images[0]}/${slider_images[1]}`} alt="Image 1" /> */}
                     {/* <Image src={slider_images[1]} alt="Image 2" /> */}
                     {/* <Image src={"image3.jpg"} alt="Image 3" /> */}
                     {/* <!-- Add more images as needed --> */}
-                    {/* </div> */}
-                {/* </div> */}
+                    </div>
+                </div>
                 </div>
             </motion.div>
         </motion.div>

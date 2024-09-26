@@ -49,31 +49,34 @@ export async function getEvents() {
               }
             }]
           },
-          // "slider_images": [
-          //   daoImage,
-          //   daoImage2
-          // ]
-          "slider_images": ["event_dao", 7]
+          "slider_images": ["event_dao", 6]
         }
       },
     {
       "id": 2,
       "attributes": {
-        "sigs": "sigs goes here",
+        "sigs":  {
+          "data": [{
+            "attributes": {
+              "name": ["CTF"]
+            }
+          }]
+        },
         "title": "Lakshya CTF",
         "date_time": "2024-08-20",
         "event_type": "CTF",
         "location": "PICT, Pune",
-        "link": "link to event goes here",
-        "cems_link": "whatever that means goes brrr",
-        "body": "body goes lmao ded brrrrrrr",
+        "link": "",
+        "cems_link": "",
+        "body": "Lakshya CTF was an awesome event that I sadly missed :(",
         "cover_images":{
           "data": [{
             "attributes": {
               "url": "https://www.hackthebox.com/images/landingv3/mega-menu-login-ctf.png"
             }
           }]
-        }
+        },
+        "slider_images": ["event_ctf", 11]
       }
     }]
       

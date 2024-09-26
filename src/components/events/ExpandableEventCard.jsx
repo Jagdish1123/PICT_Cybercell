@@ -4,6 +4,7 @@ import EventCard from "./EventCard"
 import EventModal from "./EventModal"
 import { AnimatePresence, motion } from "framer-motion"
 
+
 export default function ExpandableEventCard ({ event }) {
     let [ modalInitial, setModalInitial ] = useState(false)
     
