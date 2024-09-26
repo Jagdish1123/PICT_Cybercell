@@ -68,7 +68,7 @@ const EventsCarousel: React.FC = () => {
 const Home: React.FC = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen p-2">
-      <h1 className="text-5xl font-bold mb-6 text-center">Our Past Events</h1>
+      <h1 className="text-5xl font-bold text-center bg-clip-text bg-gradient-to-r from-blue-500 to-blue-300 text-transparent animate-fade-in mb-7">Our Past Events</h1>
       <EventsCarousel />
     </div>
   );
