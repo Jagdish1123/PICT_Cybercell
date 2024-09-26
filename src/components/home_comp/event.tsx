@@ -20,11 +20,7 @@ const events: Event[] = [
   {
     image: '/event_dao/event_dao3.jpeg',
     title: 'Jobs In Cybersecruity by PuneDAO',
-  },
-  {
-    image: '/path/to/image4.jpg',
-    title: 'Strengthening Cyber Defenses',
-  },
+  }
 ];
 
 const EventsCarousel: React.FC = () => {
