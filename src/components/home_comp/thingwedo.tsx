@@ -102,7 +102,7 @@ export default function WebClubUI() {
     <div className=" mx-auto max-w-6xl pt-10"> 
 <h1 className="text-5xl font-bold text-center bg-clip-text bg-gradient-to-r from-blue-900 via-blue-400 to-blue-900 text-transparent animate-fade-in mb-7">
     Things We Do: Unleashing Excitement at <span className="text-blue-500">PICT Cyber Cell</span>
-    <span className="inline-block ml-2 animate-spin">🕸️</span>
+    <span className="inline-block ml-2 animate-spin text-stone-950">🕸️</span>
 </h1>
 
 
